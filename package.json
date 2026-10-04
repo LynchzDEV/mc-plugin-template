@@ -1,0 +1,13 @@
+{
+  "name": "mc-plugin-template",
+  "version": "0.1.0",
+  "description": "Hello board — copy this repo to start a Mission Control plugin.",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@mission-control/plugin-sdk": "github:LynchzDEV/mc-plugin-sdk#v0.1.0"
+  },
+  "devDependencies": {
+    "happy-dom": "^20.14.5"
+  }
+}

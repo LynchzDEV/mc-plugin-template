@@ -1,0 +1,17 @@
+{
+  "id": "hello-board",
+  "name": "Hello board",
+  "version": "0.1.0",
+  "description": "A three-card starter board. Copy this plugin and make it yours.",
+  "pluginApi": 1,
+  "runtime": "trusted",
+  "server": "src/server.ts",
+  "screen": "src/screen.ts",
+  "permissions": {
+    "sessions": ["chat"],
+    "settings": true
+  },
+  "settings": [
+    { "key": "greeting", "label": "Greeting", "type": "text" }
+  ]
+}
