@@ -49,7 +49,7 @@ function screenHarness(options: HarnessOptions = {}): {
     folders: {
       recent: async () => {
         if (options.recentError) throw options.recentError
-        return options.recentFolders ?? ['/repos/mission-control']
+        return options.recentFolders ?? ['/repos/shiki']
       },
     },
     ui: {
@@ -113,7 +113,7 @@ describe('hello board screen', () => {
     expect(harness.requests).toEqual([
       {
         title: 'Read the plugin guide',
-        cwd: '/repos/mission-control',
+        cwd: '/repos/shiki',
         context: { name: 'hello-1', markdown: '# Read the plugin guide' },
       },
     ])

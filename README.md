@@ -1,6 +1,6 @@
-# Hello board — Mission Control plugin template
+# Hello board — Shikidan plugin template
 
-Copy this repo to start a [Mission Control](https://github.com/LynchzDEV/mission-control) plugin.
+Copy this repo to start a [Shikidan](https://github.com/LynchzDEV/mission-control) plugin.
 It is a complete, working plugin — one setting, three cards, a Start chat button — small enough
 to read in one sitting.
 
@@ -24,7 +24,7 @@ to read in one sitting.
 4. Write the server part in `src/server.ts`: one method per thing the screen can call.
 5. Write the screen part in `src/screen.ts`: render, then act through `mc`.
 6. `bun install && bun test` until green.
-7. Try it live: Mission Control → **Marketplace** → *Install from a link*, with
+7. Try it live: Shikidan → **Marketplace** → *Install from a link*, with
    `file:///absolute/path/to/your-checkout` (fastest loop) or your git URL and ref.
 8. Ship: push, tag a release (`v0.1.0`), list it in a marketplace's `marketplace.json`.
 
@@ -34,13 +34,13 @@ The full API — both runtimes, `mc`, `ctx`, every manifest rule — is the
 ## The one flow worth reading
 
 `Start chat` on a card calls `mc.sessions.startChat` with the card title, the most recent
-folder as the working directory, and a small task context (`# <card title>`). Mission Control
+folder as the working directory, and a small task context (`# <card title>`). Shikidan
 opens its launcher pre-filled; the user confirms; the session starts with the context attached.
 That hand-off — screen → `mc` → host launcher — is the pattern every plugin screen uses.
 
 ## Trusted or isolated?
 
-This template is `trusted`, so it runs inside Mission Control with full access — right for a
+This template is `trusted`, so it runs inside Shikidan with full access — right for a
 demo you own, wrong for a stranger's plugin. Default your own plugins to `isolated`: the OS
 sandbox limits files and network to exactly what the manifest declares. Only the manifest line
 changes; the code stays the same.

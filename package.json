@@ -1,7 +1,7 @@
 {
-  "name": "mc-plugin-template",
+  "name": "skd-plugin-template",
   "version": "0.1.0",
-  "description": "Hello board — copy this repo to start a Mission Control plugin.",
+  "description": "Hello board — copy this repo to start a Shikidan plugin.",
   "type": "module",
   "license": "MIT",
   "dependencies": {
