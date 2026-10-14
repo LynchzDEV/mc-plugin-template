@@ -1,6 +1,6 @@
-import { defineScreen } from '@mission-control/plugin-sdk/screen'
-import type { ScreenApi } from '@mission-control/plugin-sdk'
-import '@mission-control/plugin-sdk/ui.css'
+import { defineScreen } from '@shikidan/plugin-sdk/screen'
+import type { ScreenApi } from '@shikidan/plugin-sdk'
+import '@shikidan/plugin-sdk/ui.css'
 import type { HelloBoard, HelloCard } from './server'
 
 function errorMessage(error: unknown): string {

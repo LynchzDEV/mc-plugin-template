@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'bun:test'
-import type { ServerContext } from '@mission-control/plugin-sdk'
+import type { ServerContext } from '@shikidan/plugin-sdk'
 import plugin from '../src/server'
 
 function fakeCtx(greeting: string | null): ServerContext {

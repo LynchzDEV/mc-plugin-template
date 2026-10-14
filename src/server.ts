@@ -1,4 +1,4 @@
-import { definePlugin } from '@mission-control/plugin-sdk/server'
+import { definePlugin } from '@shikidan/plugin-sdk/server'
 
 export type HelloCard = { id: string; title: string }
 

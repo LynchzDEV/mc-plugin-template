@@ -1,6 +1,6 @@
 import { afterAll, describe, expect, test } from 'bun:test'
 import { Window } from 'happy-dom'
-import type { ScreenApi, SessionRequest } from '@mission-control/plugin-sdk'
+import type { ScreenApi, SessionRequest } from '@shikidan/plugin-sdk'
 import type { HelloBoard } from '../src/server'
 
 const window = new Window()

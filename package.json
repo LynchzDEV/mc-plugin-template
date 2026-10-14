@@ -5,7 +5,7 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@mission-control/plugin-sdk": "github:LynchzDEV/mc-plugin-sdk#v0.1.0"
+    "@shikidan/plugin-sdk": "github:LynchzDEV/skd-plugin-sdk#v0.3.0"
   },
   "devDependencies": {
     "happy-dom": "^20.14.5"

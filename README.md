@@ -1,6 +1,6 @@
 # Hello board — Shikidan plugin template
 
-Copy this repo to start a [Shikidan](https://github.com/LynchzDEV/mission-control) plugin.
+Copy this repo to start a [Shikidan](https://github.com/LynchzDEV/shiki) plugin.
 It is a complete, working plugin — one setting, three cards, a Start chat button — small enough
 to read in one sitting.
 
@@ -29,7 +29,7 @@ to read in one sitting.
 8. Ship: push, tag a release (`v0.1.0`), list it in a marketplace's `marketplace.json`.
 
 The full API — both runtimes, `mc`, `ctx`, every manifest rule — is the
-[SDK README](https://github.com/LynchzDEV/mc-plugin-sdk#readme).
+[SDK README](https://github.com/LynchzDEV/skd-plugin-sdk#readme).
 
 ## The one flow worth reading
 
